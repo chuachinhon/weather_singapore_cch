@@ -31,6 +31,8 @@ The lack of seasonal variations lull many into thinking that Singapore's weather
 
 In notebook [2.0_visualisation_cch](2.0_visualisation_cch.ipynb), I'll attempt to illustrate the changing weather patterns in Singapore using classic as well as new visualisation libraries/techniques like Plotly Express.
 
+Medium post: [Visualising Singapore’s Changing Weather Patterns: 1983–2019](https://towardsdatascience.com/visualising-singapores-changing-weather-patterns-1983-2019-a78605fadbdf)
+
 # CONTACT
 ### Twitter: @chinhon
 ### LinkedIn: www.linkedin.com/in/chuachinhon
