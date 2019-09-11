@@ -36,6 +36,9 @@ Data visualisation provide an easy way to spot outliers. But when you have 36 ye
 
 In the [third section of this project](https://github.com/chuachinhon/weather_singapore_cch/blob/master/notebooks/3.0_outlier_detection_cch.ipynb), I'll use Scikit-learn's Isolation Forest model as well as the PyOD library (Python Outlier Detection) to try to pinpoint anomalies in the dataset. This is also important pre-work for Part IV of the project - time series forecasting, where removal of the outliers would be key to more accurate predictions.
 
+Medium post: [Detecting Abnormal Weather Patterns With Data Science Tools](https://medium.com/p/detecting-abnormal-weather-patterns-with-data-science-tools-5fae48586469?source=email-b3d8090c0aee--writer.postDistributed&sk=7871a6d09463983910eff9cc9a684b6b)
+
+
 
 
 # CONTACT
