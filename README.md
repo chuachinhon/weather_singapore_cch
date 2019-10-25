@@ -39,6 +39,12 @@ In the [third section of this project](https://github.com/chuachinhon/weather_si
 Medium post: [Detecting Abnormal Weather Patterns With Data Science Tools](https://medium.com/p/detecting-abnormal-weather-patterns-with-data-science-tools-5fae48586469?source=email-b3d8090c0aee--writer.postDistributed&sk=7871a6d09463983910eff9cc9a684b6b)
 
 
+## IV. Scorcher: Q3 2019 temperature records
+
+This [fourth notebook](https://github.com/chuachinhon/weather_singapore_cch/blob/master/notebooks/4.0_scorcher2019_cch.ipynb) is a short follow-up of sorts to Part II, looking at how temperatures during the three months between July and September 2019 were among the warmest Singapore had experienced over the last 36 years, as global temperature records tumbled around the world.
+
+Medium post: [SCORCHER: As Global Records Tumbled, S’pore Baked Under One Of The Warmest Q3 Ever](https://medium.com/@chinhonchua/scorcher-as-global-records-tumbled-spore-baked-under-one-of-the-warmest-q3-ever-436837cb5b0?sk=30523f141ca9934722165e51251592c6)
+
 
 
 # CONTACT
