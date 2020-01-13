@@ -9,12 +9,12 @@ For data science students in Singapore, it is hard to find detailed, yet publicl
 I'm also using the dataset for a series of self-assigned data science projects, starting with visualisation. I will include time series and machine learning forecasts in future updates to this project.  
 
 ## TABLE OF CONTENT
-There are 3 sections so far. The CSV files containing the daily and monthly weather data are in the raw folder. Those who want to assemble their own datasets should head there first.
+There are 5 sections so far. The CSV files containing the daily and monthly weather data are in the raw folder. Those who want to assemble their own datasets should head there first.
 
 ## I. DATA COLLECTION-PREPROCESSING
 What you'll find in the [raw folder](https://github.com/chuachinhon/weather_singapore_cch/tree/master/raw):
 
-* 438 CSV files containing daily weather data for Singapore from 1983 - 2019 (June)
+* 444 CSV files containing daily weather data for Singapore from 1983 - 2019 (Dec)
 
 * A "monthly_data" sub-folder containing monthly average data for rainfall, maximum and mean temperatures.
 
@@ -22,6 +22,11 @@ What you'll find in the [data folder](https://github.com/chuachinhon/weather_sin
 * 4 CSV files processed in the notebook [1.0_data_cleaning_cch](https://github.com/chuachinhon/weather_singapore_cch/blob/master/notebooks/1.0_data_cleaning_cch.ipynb) 
 
 * 2 CSV files related to outlier detection, as processed in the notebook [3.0_outlier_detection_cch.ipynb](https://github.com/chuachinhon/weather_singapore_cch/blob/master/notebooks/3.0_outlier_detection_cch.ipynb)
+
+* 1 CSV file related to the Q3 2019 scorcher in Singapore
+
+* 1 CSV file related to the notebooks for machine learning and deep learning, as processed in [notebook5.0](https://github.com/chuachinhon/weather_singapore_cch/blob/master/notebooks/5.0_data_prep_cch.ipynb) and 1 validation dataset. 
+
 
 ## II. EDA & DATA VISUALISATION
 The lack of seasonal variations lull many into thinking that Singapore's weather is predictable and unchanging. Nothing is further from the truth, with climate change making the city state's weather even more unpredictable.
@@ -46,6 +51,19 @@ This [fourth notebook](https://github.com/chuachinhon/weather_singapore_cch/blob
 Medium post: [SCORCHER: As Global Records Tumbled, S’pore Baked Under One Of The Warmest Q3 Ever](https://medium.com/@chinhonchua/scorcher-as-global-records-tumbled-spore-baked-under-one-of-the-warmest-q3-ever-436837cb5b0?sk=30523f141ca9934722165e51251592c6)
 
 
+## V. Weather Predictions: ‘Classic’ Machine Learning Models Vs Keras
+
+You are ready to dip your toes into deep learning but not sure where to start. One way is to build on what you've been doing in Scikit-learn, and apply useful features like pipelines and grid search via the Keras wrappers.
+
+This fifth series of notebooks starts with a [simple example](https://github.com/chuachinhon/weather_singapore_cch/blob/master/notebooks/5.1_ml_LR_XGB_cch.ipynb) on pipeline construction and grid search for a binary classification problem, using the Logistic Regression and XGBoost Classifier.
+
+In [notebook 5.2](https://github.com/chuachinhon/weather_singapore_cch/blob/master/notebooks/5.2_dl_keras_gridsearch_cch.ipynb), I tackled the same problem using the Keras Classifier, which introduces the concept of defining and building a Keras sequential model. 
+
+In [notebook 5.3](https://github.com/chuachinhon/weather_singapore_cch/blob/master/notebooks/5.3_dl_keras_tuner_cch.ipynb), I experimented with the relatively new Keras Tuner as an alternative to the Scikit-learn/grid search approach.
+
+Data preparation for this section of the project are in [notebook 5.1](https://github.com/chuachinhon/weather_singapore_cch/blob/master/notebooks/5.0_data_prep_cch.ipynb). The validation dataset is [here](https://github.com/chuachinhon/weather_singapore_cch/blob/master/data/weather_dec2019.csv).
+
+Medium Post: https://bit.ly/2QJdrpD
 
 # CONTACT
 ### Twitter: @chinhon
